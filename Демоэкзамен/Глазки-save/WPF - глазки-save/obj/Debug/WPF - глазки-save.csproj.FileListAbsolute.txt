@@ -1,0 +1,36 @@
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\bin\Debug\WPF - глазки-save.exe.config
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\bin\Debug\WPF - глазки-save.exe
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\bin\Debug\WPF - глазки-save.pdb
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.csproj.AssemblyReference.cache
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\MainGlazkiSave.g.cs
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save_MarkupCompile.cache
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save_MarkupCompile.lref
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\MainGlazkiSave.baml
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.g.resources
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF___глазки_save.Properties.Resources.resources
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.csproj.GenerateResource.cache
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.exe
+C:\Users\Администратор\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.pdb
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\bin\Debug\WPF - глазки-save.exe.config
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\bin\Debug\WPF - глазки-save.exe
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\bin\Debug\WPF - глазки-save.pdb
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.csproj.AssemblyReference.cache
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.csproj.SuggestedBindingRedirects.cache
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\MainGlazkiSave.g.cs
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\App.g.cs
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save_MarkupCompile.cache
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save_MarkupCompile.lref
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\App.baml
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\MainGlazkiSave.baml
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.g.resources
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF___глазки_save.Properties.Resources.resources
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.csproj.GenerateResource.cache
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.csproj.CoreCompileInputs.cache
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.exe
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\WPF - глазки-save.pdb
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\Frames\AdminFrame.g.cs
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\Frames\UserFrame.g.cs
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\Frames\AdminFrame.baml
+C:\Users\vladimir75vov\Desktop\7sem\Demoekzamen\Глазки\WPF - глазки-save\obj\Debug\Frames\UserFrame.baml
