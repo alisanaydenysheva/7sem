@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ css_path }}">
+</head>
+<body>
+<h1>Форма для добавления студента</h1>
+<div>
+    <form class="login_form" method="post">
+        <label class="form-check-label" for="id">Номер:</label>
+        <input type="number" class="form-control" id="id" name="id">
+        <label class="form-check-label" for="fio">ФИО:</label>
+        <input type="text" class="form-control" id="fio" placeholder="Введите ФИО" name="fio">
+        <label class="form-check-label" for="bdate">Дата рождения:</label>
+        <input type="date" class="form-control" id="bdate" name="bdate">
+        <label class="form-check-label" for="salary">Группа:</label>
+        <input type="number" class="form-control" id="salary" name="salary">
+        <div class="form-group" id="form-check">
+            <label for="form-check">Зачет/незачет</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="onleave" id="yes" value="True" checked>
+                <label class="form-check-label" for="yes">
+                    Зачет
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="onleave" id="no" value="False">
+                <label class="form-check-label" for="no">
+                    Незачет
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Добавить</button>
+    </form>
+</div>
+</body>
+</html>

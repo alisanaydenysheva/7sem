@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список студентов</title>
+    <link rel="stylesheet" href="{{ css_path }}">
+</head>
+<body>
+    <table>
+    <caption><h2>Список студентов</h2></caption>
+    <tr>
+        <th>№</th>
+        <th>ФИО</th>
+        <th>Дата рождения</th>
+        <th>Группа</th>
+        <th>Зачет/незачет</th>
+    </tr>
+    {% for item in org['Employees'] %}
+    <tr>
+        <td>{{item["id"]}}</td>
+        <td>{{item["FIO"]}}</td>
+        <td>{{item["bdate"]}}</td>
+        <td>{{item["salary"]}}</td>
+        <td>{% if item["on_leave"] == "True" %}
+            Зачет
+            {% else %}
+            Незачет
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+
+</table>
+</body>
+</html>

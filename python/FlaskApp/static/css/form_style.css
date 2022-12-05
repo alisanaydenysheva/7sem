@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+    padding: 2% 0 0 5%;
+}
+form {
+    width: 30%;
+}
+form input{
+    margin-bottom: 10px;
+}
+#id {
+    width: 100px;
+}
+#bdate{
+    width: 160px;
+}
