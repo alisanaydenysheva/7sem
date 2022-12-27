@@ -1,0 +1,14 @@
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\BlagodatAlice.csproj.AssemblyReference.cache
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\BlagodatAlice.csproj.SuggestedBindingRedirects.cache
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\MainWindow.g.cs
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\Pages\AddEditPage.g.cs
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\Pages\Admin.g.cs
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\Pages\Login.g.cs
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\Pages\ProductAgents.g.cs
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\Pages\User.g.cs
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\App.g.cs
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\WordSkills_Content.g.cs
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\WordSkills_MarkupCompile.cache
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\WordSkills_MarkupCompile.lref
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\WordSkills.exe
+C:\Users\daimo\Desktop\Alice\BlagodatAlice\BlagodatAlice\obj\Debug\WordSkills.pdb

@@ -1,0 +1,22 @@
+﻿<Window x:Class="BlagodatAlice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlagodatAlice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid Background="White" Panel.ZIndex="0"></Grid>
+        <Grid Grid.Row="2" Background="#FF76E383" Panel.ZIndex="0"></Grid>
+        <Image Source="/Resources/logo.png" HorizontalAlignment="Left"/>
+        <TextBlock Text="Благодать" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <Frame NavigationUIVisibility="Hidden" ContentRendered="MainFrame_ContentRendered" Grid.Row="1" Name="MainFrame"></Frame>
+        <Button x:Name="BtnBack" Content="Back" Width="175" Height="30" HorizontalAlignment="Right" Margin="5" Click="BtnBackClick" ></Button>
+    </Grid>
+</Window>
