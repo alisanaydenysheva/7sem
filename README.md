@@ -1,5 +1,8 @@
 # Семестр 7. Главная
 # Ссылки 
+## Видео по УП
+https://drive.google.com/drive/folders/1lZPlH9zeP0ASZ1XZzqaGgXMl871nyKRw
+
 Информация по демоэкзамену - https://cdn.dp.worldskills.ru/esatk-prod/public_files/4d0d9337-1f31-4306-89bb-f3b279e80642-1de406f7723b7a8a146ab4fbd3cc7539.pdf <br>
 # Скриншоты 
 Система оценивания на демоэкзамене<br>
