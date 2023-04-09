@@ -1,0 +1,111 @@
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\AddEditPage.g.cs
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\Administrator.g.cs
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\HotelsPage.g.cs
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\Mangerrr.g.cs
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\ServicePage.g.cs
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\App.g.cs
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1HAHAH_Content.g.cs
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1HAHAH_MarkupCompile.cache
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1HAHAH_MarkupCompile.lref
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1HAHAH.exe
+C:\Users\daimo\Desktop\111\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1HAHAH.pdb
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\AddEditPage.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\Administrator.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\HotelsPage.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\Mangerrr.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\Pages\ServicePage.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\App.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1HAHAH_Content.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1HAHAH_MarkupCompile.cache
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1HAHAH_MarkupCompile.lref
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1HAHAH\WpfApp1HAHAH\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\Pages\AddEditPage.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\Pages\Administrator.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\Pages\HotelsPage.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\Pages\Mangerrr.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\Pages\ServicePage.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\daimo\Desktop\TourAgencyGachi\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\AddEditPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\Administrator.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\HotelsPage.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\Mangerrr.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\ServicePage.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\AddEditPage.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\Administrator.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\HotelsPage.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\MainWindow.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\Mangerrr.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\Pages\ServicePage.baml
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Администратор\Desktop\Новая папка (4)\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\AddEditPage.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\Administrator.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\HotelsPage.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\MainWindow.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\Mangerrr.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\RegPage.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\ServicePage.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\App.baml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\AddEditPage.baml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\Administrator.baml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\HotelsPage.baml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\MainWindow.baml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\Mangerrr.baml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\RegPage.baml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\ServicePage.baml
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\AddEditPage2.g.cs
+C:\Users\daimo\Desktop\WpfApp1\WpfApp1\obj\Debug\Pages\AddEditPage2.baml

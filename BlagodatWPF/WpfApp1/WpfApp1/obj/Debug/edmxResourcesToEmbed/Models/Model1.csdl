@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BlagodatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="ClientID" />
+    </Key>
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fio" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Adress" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Birthday" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="PassCode" Type="Int32" Nullable="false" />
+    <Property Name="PassNumber" Type="Int32" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Items">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="Int32" Nullable="false" />
+    <Property Name="ItemName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CostPerHour" Type="Int32" Nullable="false" />
+    <Property Name="AmountOfItem" Type="Int32" Nullable="false" />
+    <Property Name="ItemTypeID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ItemTypes" Relationship="Self.FK_Items_ItemTypes" FromRole="Items" ToRole="ItemTypes" />
+  </EntityType>
+  <EntityType Name="ItemTypes">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="Int32" Nullable="false" />
+    <Property Name="TypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="Self.FK_Items_ItemTypes" FromRole="ItemTypes" ToRole="Items" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="OrderID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="OrderTime" Type="Int32" Nullable="false" />
+    <Property Name="DateCreate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="OrderStatus" Type="Int32" Nullable="false" />
+    <Property Name="DateClose" Type="DateTime" Precision="0" />
+    <Property Name="RentalTime" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="status" Relationship="Self.FK_Orders_status" FromRole="Orders" ToRole="status" />
+    <NavigationProperty Name="Services" Relationship="Self.order_service" FromRole="Orders" ToRole="Services" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_User_Role1" FromRole="Role" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="services_name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="services_code" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="cost" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.order_service" FromRole="Services" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="status">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_status" FromRole="status" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TypeProduct">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RoleID" Type="Int32" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="photo" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="fio" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <Property Name="auth" Type="Boolean" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_User_Role1" FromRole="User" ToRole="Role" />
+  </EntityType>
+  <Association Name="FK_Items_ItemTypes">
+    <End Role="ItemTypes" Type="Self.ItemTypes" Multiplicity="1" />
+    <End Role="Items" Type="Self.Items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ItemTypes">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Items">
+        <PropertyRef Name="ItemTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_status">
+    <End Role="status" Type="Self.status" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="status">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="OrderStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role1">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="order_service">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <End Role="Services" Type="Self.Services" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="BlagodatEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clients" EntityType="Self.Clients" />
+    <EntitySet Name="Items" EntityType="Self.Items" />
+    <EntitySet Name="ItemTypes" EntityType="Self.ItemTypes" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" />
+    <EntitySet Name="Role" EntityType="Self.Role" />
+    <EntitySet Name="Services" EntityType="Self.Services" />
+    <EntitySet Name="status" EntityType="Self.status" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TypeProduct" EntityType="Self.TypeProduct" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <AssociationSet Name="FK_Items_ItemTypes" Association="Self.FK_Items_ItemTypes">
+      <End Role="ItemTypes" EntitySet="ItemTypes" />
+      <End Role="Items" EntitySet="Items" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_status" Association="Self.FK_Orders_status">
+      <End Role="status" EntitySet="status" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role1" Association="Self.FK_User_Role1">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="order_service" Association="Self.order_service">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="Services" EntitySet="Services" />
+    </AssociationSet>
+    <EntitySet Name="barcodes" EntityType="BlagodatModel.barcodes" />
+  </EntityContainer>
+  <EntityType Name="barcodes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="code" Type="String" Nullable="false" MaxLength="13" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

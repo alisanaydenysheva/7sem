@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище TourAgencyMDModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Countrys">
+    <Key>
+      <PropertyRef Name="CountryID" />
+    </Key>
+    <Property Name="CountryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CountryName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryCode" Type="nchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Hotels">
+    <Key>
+      <PropertyRef Name="HotelID" />
+    </Key>
+    <Property Name="HotelID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HotelName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Stars" Type="int" Nullable="false" />
+    <Property Name="CountryName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CountryCode" Type="nchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TourHotels">
+    <Key>
+      <PropertyRef Name="HotelID" />
+    </Key>
+    <Property Name="HotelID" Type="int" Nullable="false" />
+    <Property Name="TourID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tours">
+    <Key>
+      <PropertyRef Name="TourID" />
+    </Key>
+    <Property Name="TourID" Type="int" Nullable="false" />
+    <Property Name="ImageTour" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TourName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryCode" Type="nchar" MaxLength="10" />
+    <Property Name="TicketsCount" Type="int" />
+    <Property Name="Cost" Type="int" />
+    <Property Name="isActual" Type="int" />
+    <Property Name="TourType" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "TourAgencyMD.dbo.TourTypes" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="TourTypes">
+    <Key>
+      <PropertyRef Name="TourTypeID" />
+      <PropertyRef Name="TypeName" />
+    </Key>
+    <Property Name="TourTypeID" Type="int" Nullable="false" />
+    <Property Name="TypeName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="login" Type="nvarchar" MaxLength="50" />
+    <Property Name="RoleID" Type="int" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Hotels_Countrys1">
+    <End Role="Countrys" Type="Self.Countrys" Multiplicity="1" />
+    <End Role="Hotels" Type="Self.Hotels" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Countrys">
+        <PropertyRef Name="CountryID" />
+      </Principal>
+      <Dependent Role="Hotels">
+        <PropertyRef Name="HotelID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Role_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Role">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище TourAgencyMDModelContainer">
+    <EntitySet Name="Countrys" EntityType="Self.Countrys" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Hotels" EntityType="Self.Hotels" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TourHotels" EntityType="Self.TourHotels" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tours" EntityType="Self.Tours" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TourTypes" EntityType="Self.TourTypes" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TourTypes].[TourTypeID] AS [TourTypeID], 
+    [TourTypes].[TypeName] AS [TypeName]
+    FROM [dbo].[TourTypes] AS [TourTypes]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Hotels_Countrys1" Association="Self.FK_Hotels_Countrys1">
+      <End Role="Countrys" EntitySet="Countrys" />
+      <End Role="Hotels" EntitySet="Hotels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Role_User" Association="Self.FK_Role_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Role" EntitySet="Role" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

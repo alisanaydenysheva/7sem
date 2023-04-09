@@ -1,0 +1,6 @@
+C:\Users\daimo\source\repos\SF2022User5Lib\SF2022User5Lib\bin\Debug\SF2022User5Lib.dll
+C:\Users\daimo\source\repos\SF2022User5Lib\SF2022User5Lib\bin\Debug\SF2022User5Lib.pdb
+C:\Users\daimo\source\repos\SF2022User5Lib\SF2022User5Lib\obj\Debug\SF2022User5Lib.csproj.AssemblyReference.cache
+C:\Users\daimo\source\repos\SF2022User5Lib\SF2022User5Lib\obj\Debug\SF2022User5Lib.csproj.CoreCompileInputs.cache
+C:\Users\daimo\source\repos\SF2022User5Lib\SF2022User5Lib\obj\Debug\SF2022User5Lib.dll
+C:\Users\daimo\source\repos\SF2022User5Lib\SF2022User5Lib\obj\Debug\SF2022User5Lib.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF2022User02Lib", "SF2022User02Lib\SF2022User02Lib.csproj", "{D94336E5-6788-4C1B-8531-7A55B1FAB010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF2022User02LibTests", "SF2022User02Tests\SF2022User02LibTests.csproj", "{FBC73DA0-A028-433A-B91F-FDFB7BD32282}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D94336E5-6788-4C1B-8531-7A55B1FAB010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94336E5-6788-4C1B-8531-7A55B1FAB010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94336E5-6788-4C1B-8531-7A55B1FAB010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94336E5-6788-4C1B-8531-7A55B1FAB010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC73DA0-A028-433A-B91F-FDFB7BD32282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC73DA0-A028-433A-B91F-FDFB7BD32282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC73DA0-A028-433A-B91F-FDFB7BD32282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC73DA0-A028-433A-B91F-FDFB7BD32282}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A889F003-2516-4C05-A290-77AEFD426742}
+	EndGlobalSection
+EndGlobal

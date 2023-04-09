@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище BlagodatModelContainer" CdmEntityContainer="BlagodatEntities2">
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="BlagodatModel.Clients">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="fio" ColumnName="fio" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="PassCode" ColumnName="PassCode" />
+          <ScalarProperty Name="PassNumber" ColumnName="PassNumber" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="BlagodatModel.Items">
+        <MappingFragment StoreEntitySet="Items">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="CostPerHour" ColumnName="CostPerHour" />
+          <ScalarProperty Name="AmountOfItem" ColumnName="AmountOfItem" />
+          <ScalarProperty Name="ItemTypeID" ColumnName="ItemTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ItemTypes">
+      <EntityTypeMapping TypeName="BlagodatModel.ItemTypes">
+        <MappingFragment StoreEntitySet="ItemTypes">
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="BlagodatModel.Orders">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="OrderTime" ColumnName="OrderTime" />
+          <ScalarProperty Name="DateCreate" ColumnName="DateCreate" />
+          <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+          <ScalarProperty Name="DateClose" ColumnName="DateClose" />
+          <ScalarProperty Name="RentalTime" ColumnName="RentalTime" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="BlagodatModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="BlagodatModel.Services">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="services_name" ColumnName="services_name" />
+          <ScalarProperty Name="services_code" ColumnName="services_code" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="status">
+      <EntityTypeMapping TypeName="BlagodatModel.status">
+        <MappingFragment StoreEntitySet="status">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BlagodatModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeProduct">
+      <EntityTypeMapping TypeName="BlagodatModel.TypeProduct">
+        <MappingFragment StoreEntitySet="TypeProduct">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="BlagodatModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+          <ScalarProperty Name="fio" ColumnName="fio" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="auth" ColumnName="auth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="order_service" TypeName="BlagodatModel.order_service" StoreEntitySet="order_service">
+      <EndProperty Name="Orders">
+        <ScalarProperty Name="ID" ColumnName="IDOrder" />
+      </EndProperty>
+      <EndProperty Name="Services">
+        <ScalarProperty Name="id" ColumnName="IDService" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="barcodes">
+      <EntityTypeMapping TypeName="BlagodatModel.barcodes">
+        <MappingFragment StoreEntitySet="barcodes">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
