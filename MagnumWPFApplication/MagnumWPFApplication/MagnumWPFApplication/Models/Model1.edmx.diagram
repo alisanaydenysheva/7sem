@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e63ff3d1fddf49379a5cf53fc823127d" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="ActioRusBDModel.Employes" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActioRusBDModel.EnterHistory" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActioRusBDModel.Items" Width="1.5" PointX="5.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActioRusBDModel.Orders" Width="1.5" PointX="8" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActioRusBDModel.Posts" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActioRusBDModel.Roles" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActioRusBDModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActioRusBDModel.Users" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="ActioRusBDModel.FK_Employes_Posts" ManuallyRouted="false" />
+        <AssociationConnector Association="ActioRusBDModel.FK_EnterHistory_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="ActioRusBDModel.FK_Orders_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="ActioRusBDModel.FK_Users_Roles" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ActioRusBDModel.CartTable" Width="1.5" PointX="5.25" PointY="9.125" />
+        <AssociationConnector Association="ActioRusBDModel.FK_CartTable_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

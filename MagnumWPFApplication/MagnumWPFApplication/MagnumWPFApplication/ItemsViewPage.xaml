@@ -1,0 +1,101 @@
+﻿<Page x:Class="ActioRusApp.ItemsViewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ActioRusApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ItemsViewPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="1700"></ColumnDefinition>
+            <ColumnDefinition Width="200" ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Column="1">
+            <Label Content="Поиск товара" Height="25" FontFamily="Times New Roman" VerticalAlignment="Center"></Label>
+            <TextBox Name="SearchList" Width="200" Height="25" TextChanged="SearchList_TextChanged"></TextBox>
+            <Label Content="Выберите тип товара" Height="25" FontFamily="Times New Roman"></Label>
+            <ComboBox Name="JenresList" Width="200" Height="25" FontFamily="Times New Roman" Cursor="Hand" Margin="5" SelectionChanged="MarksList_SelectionChanged"></ComboBox>
+            <Button Name="ResetFilters" Height="24" Width="126" Content="Сбросить фильтры" Click="ResetFilters_Click" Cursor="Hand" ></Button>
+
+
+
+
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" Orientation="Vertical">
+            <Image Width="100" Source="\Resources\cart.png"></Image>
+            <Label Content="Корзина" HorizontalAlignment="Center" FontFamily="Times New Roman" FontWeight="Bold" FontSize="20"></Label>
+            <DataGrid Name="Cart" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Width="30" Header="№" Binding="{Binding ItemID}"></DataGridTextColumn>
+                    <DataGridTextColumn Width="65" Header="Количество" Binding="{Binding Count}"></DataGridTextColumn>
+                    <DataGridTextColumn  Header="Стоимость" Binding="{Binding Cost}"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button Margin="5" Content="Заказать 1 штуку" Click="Button_Click"></Button>
+        </StackPanel>
+        <WrapPanel Grid.Row="1" Grid.Column="1" Width="auto" Visibility="Visible">
+            <ListView SelectionChanged="CarsViewPanel_SelectionChanged" Name="CarsViewPanel" Grid.Column="1" Grid.Row="1"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" VerticalAlignment="Center" Visibility="Visible">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" Cursor="" ></WrapPanel>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height = "75" ></RowDefinition >
+                                <RowDefinition  Height = "310" ></RowDefinition >
+                                <RowDefinition Height = "auto" ></RowDefinition >
+                                <RowDefinition Height = "auto" ></RowDefinition >
+                                <RowDefinition Height = "auto" ></RowDefinition >
+                            </Grid.RowDefinitions >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="500"></ColumnDefinition>
+                                <ColumnDefinition Width="auto"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Image Width = "400" Grid.Row = "1"  HorizontalAlignment = "Center" Margin = "5" >
+                                <Image.Source>
+
+                                    <ImageSource >\Resources\item.png</ImageSource >
+
+                                </Image.Source>
+                            </Image >
+                            <TextBlock Text = "{Binding ItemID}" VerticalAlignment = "Center" TextAlignment = "Center" Width = "450"
+                                   TextWrapping = "Wrap" HorizontalAlignment = "Center" FontSize = "26" Grid.Row = "0" ></TextBlock >
+                            <TextBlock Text = "{Binding ItemName}" Grid.Row = "2"  HorizontalAlignment = "Center" FontSize = "20" FontWeight = "Bold" ></TextBlock >
+                            <TextBlock Text = "{Binding ItemType}" Grid.Row = "3" FontSize = "14" HorizontalAlignment = "Right" ></TextBlock >
+                            <TextBlock Text = "{Binding Cost,StringFormat='{}{0:N0} ₽ Руб.'}" Grid.Row = "3" FontSize = "14" HorizontalAlignment = "Left" ></TextBlock >
+                            <TextBlock Text =  "{Binding Count}" Grid.Row = "2" FontSize = "14" HorizontalAlignment = "Right" ></TextBlock >
+                            
+                            <TextBlock Text="Описание:" Grid.Column="2" Grid.Row="0" VerticalAlignment="Top"></TextBlock>
+
+                            <TextBlock Text="{Binding Description}" Grid.Row="1" Width="300" Height="1000" Grid.Column="2"  TextWrapping="Wrap"></TextBlock>
+
+                        </Grid >
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Name="ClientDataPAnel" Visibility="Collapsed" Orientation="Vertical" Width="auto">
+
+
+
+            </StackPanel>
+        </WrapPanel>
+
+
+
+
+    </Grid>
+</Page>
